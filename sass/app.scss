@@ -12,14 +12,6 @@
 
 // @import "foundation/components/global"; // *always required
 // @import "foundation/components/grid";
-
-//
-// Use this grid if you want to start using the new Foundation 5 grid early.
-// It will change breakpoints to min-width: 640px and 1024px.
-//
-// @import "foundation/components/grid-5";
-//
-
 // @import "foundation/components/visibility";
 // @import "foundation/components/block-grid";
 // @import "foundation/components/type";
@@ -54,3 +46,40 @@
 // @import "foundation/components/tooltips";
 // @import "foundation/components/dropdown";
 
+// Global Varialbles
+
+$vertical-logo: url('../images/logo-vertical.svg');
+$pattern-bg: url('../images/pattern.svg');
+
+	//reds
+	$red1: rgba(237, 33, 36, 1);
+	$red2: rgba(172, 31, 31, 1);
+	$red3: rgba(109, 16, 17, 1);
+
+	//blues
+	$blue1: rgba(0, 103, 140, 1);
+	$blue2: rgba(22, 84, 118, 1);
+	$blue3: rgba(16, 63, 95, 1);
+
+	//yellows
+	$yellow1: rgba(251, 210, 44, 1);
+	$yellow2: rgba(250, 162, 34, 1);
+	$yellow3: rgba(226, 148, 31, 1);
+
+html,body{
+	width: 100%;
+	height: 100%;
+}
+body{
+	background-image: $pattern-bg;
+}
+.row{
+}
+h1#coming-soon-logo{
+	margin-top: 100px;
+	background-image: $vertical-logo;
+	background-size: 400px 400px;
+	background-position: center center;
+	display: block;
+	height: 300px;
+}
