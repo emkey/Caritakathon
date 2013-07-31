@@ -74,13 +74,15 @@ body{
 	background-image: $pattern-bg;
 	background-size: 98px 123px;
 }
-.row{
+.top-page{
+	padding-top: 100px;
 }
 h1#coming-soon-logo{
-	margin-top: 100px;
 	background-image: $vertical-logo;
 	background-size: 400px 400px;
 	background-position: center center;
+	background-repeat: no-repeat;
 	display: block;
 	height: 300px;
+
 }
