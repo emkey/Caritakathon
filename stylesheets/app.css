@@ -6028,8 +6028,8 @@ h1#coming-soon-logo {
   padding-bottom: 100px;
   color: #ac1f1f;
   font-size: 1.5em;
-  border-top: 2px solid #5a5b5b;
-  padding-top: 5px;
+  padding-top: 0px;
+  margin-top: -20px;
 }
 /* line 138, ../sass/app.scss */
 #tagline span {
@@ -6050,14 +6050,18 @@ h1#coming-soon-logo {
 #how-do-i-join {
   background-color: rgba(255, 255, 255, 0.8);
 }
+/* line 151, ../sass/app.scss */
+#how-do-i-join h3 {
+  padding-top: 50px;
+}
 
-/* line 152, ../sass/app.scss */
+/* line 155, ../sass/app.scss */
 #participants {
   margin-top: 100px;
   padding-top: 60px;
 }
 
-/* line 157, ../sass/app.scss */
+/* line 160, ../sass/app.scss */
 #teams #designer, #teams #developer, #teams #project-manager {
   text-align: center;
   font-size: 0.8em;
@@ -6065,12 +6069,12 @@ h1#coming-soon-logo {
   letter-spacing: 1px;
 }
 
-/* line 164, ../sass/app.scss */
+/* line 167, ../sass/app.scss */
 #reg-form {
   padding-bottom: 60px;
 }
 
-/* line 167, ../sass/app.scss */
+/* line 170, ../sass/app.scss */
 .role-logo {
   margin-left: auto;
   margin-right: auto;
@@ -6079,7 +6083,7 @@ h1#coming-soon-logo {
   text-align: center;
 }
 
-/* line 175, ../sass/app.scss */
+/* line 178, ../sass/app.scss */
 #about-caritakathon li {
   display: block;
   font-size: 0.9em;
@@ -6089,7 +6093,7 @@ h1#coming-soon-logo {
   background-size: 50px;
   padding-left: 60px;
 }
-/* line 183, ../sass/app.scss */
+/* line 186, ../sass/app.scss */
 #about-caritakathon li strong {
   display: block;
   font-size: 1.3em;
@@ -6097,7 +6101,30 @@ h1#coming-soon-logo {
   color: #ac1f1f;
 }
 
-/* line 191, ../sass/app.scss */
+/* line 194, ../sass/app.scss */
+#registration {
+  padding-top: 60px;
+}
+
+/* line 197, ../sass/app.scss */
 #registration {
   margin-top: 60px;
+}
+
+/* line 200, ../sass/app.scss */
+#sponsors-and-partners {
+  background: #fff;
+}
+
+/* line 203, ../sass/app.scss */
+#mechanics {
+  padding-top: 60px;
+}
+/* line 206, ../sass/app.scss */
+#mechanics ul li {
+  display: block;
+}
+/* line 211, ../sass/app.scss */
+#mechanics ol li {
+  margin-left: 20px;
 }
