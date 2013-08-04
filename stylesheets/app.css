@@ -6066,6 +6066,11 @@ h1#coming-soon-logo {
 }
 
 /* line 164, ../sass/app.scss */
+#reg-form {
+  padding-bottom: 60px;
+}
+
+/* line 167, ../sass/app.scss */
 .role-logo {
   margin-left: auto;
   margin-right: auto;
@@ -6074,7 +6079,7 @@ h1#coming-soon-logo {
   text-align: center;
 }
 
-/* line 172, ../sass/app.scss */
+/* line 175, ../sass/app.scss */
 #about-caritakathon li {
   display: block;
   font-size: 0.9em;
@@ -6084,7 +6089,7 @@ h1#coming-soon-logo {
   background-size: 50px;
   padding-left: 60px;
 }
-/* line 180, ../sass/app.scss */
+/* line 183, ../sass/app.scss */
 #about-caritakathon li strong {
   display: block;
   font-size: 1.3em;
@@ -6092,7 +6097,7 @@ h1#coming-soon-logo {
   color: #ac1f1f;
 }
 
-/* line 188, ../sass/app.scss */
+/* line 191, ../sass/app.scss */
 #registration {
   margin-top: 60px;
 }
