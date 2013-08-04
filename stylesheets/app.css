@@ -6667,6 +6667,7 @@ a.th {
 html, body {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
+  color: #666;
 }
 
 /* line 85, ../sass/app.scss */
@@ -6684,14 +6685,14 @@ h1, h2, h3, h4, h5, h6 {
 /* line 94, ../sass/app.scss */
 h2.section-header {
   text-align: center;
-  color: #ed2124;
+  color: #6d1011;
 }
 
 /* line 99, ../sass/app.scss */
 .row h3 {
   text-transform: uppercase;
   font-size: 1.2em;
-  color: #faa222;
+  color: #e2941f;
 }
 
 /* line 105, ../sass/app.scss */
