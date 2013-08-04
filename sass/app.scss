@@ -62,7 +62,8 @@
 
 $vertical-logo: url('../images/logo-vertical.svg');
 $pattern-bg: url('../images/pattern.svg');
-
+$seriffont: 'ClassicRoundMediumRegular';
+$sansseriffont: 'Roboto';
 	//reds
 	$red1: rgba(237, 33, 36, 1);
 	$red2: rgba(172, 31, 31, 1);
@@ -79,8 +80,10 @@ $pattern-bg: url('../images/pattern.svg');
 	$yellow3: rgba(226, 148, 31, 1);
 
 html,body{
-	font-family: 'Roboto', sans-serif;
-	font-weight: 100;color: #666;
+	color: #666;
+}
+p{
+	font-weight: 300;
 }
 #container{
 	background-color: rgba(255,255,255,0.5);
@@ -93,13 +96,14 @@ h1,h2,h3,h4,h5,h6{
 }
 h2.section-header{
 	text-align: center;
-	color: $red3;
+	color: $red2;
 }
 .row{
 	h3{
 		text-transform: uppercase;
 		font-size: 1.2em;
-		color: $yellow3
+		color: $yellow3;
+		text-align: center;
 	}
 }
 body{
@@ -116,6 +120,71 @@ h1#coming-soon-logo{
 	background-repeat: no-repeat;
 	display: block;
 	height: 300px;
-	margin-bottom: 100px;
+	clear: both;
+	text-indent: -999px;
+	overflow: hidden;
 
+}
+#tagline{
+	margin: 0px auto;
+	width: 320px;
+	text-align: center;
+	font-family: $seriffont;
+	padding-bottom: 100px;
+	color: $red2;
+	font-size: 1.5em;
+	border-top: 2px solid #5A5B5B;
+	padding-top: 5px;
+	span{
+		color: #5A5B5B;
+	}
+}
+#about{
+	padding-top: 40px;
+}
+#quick-details{
+	text-align: center;
+	
+}
+#how-do-i-join{
+	background-color: rgba(255,255,255,0.8);
+}
+#participants{
+	margin-top: 100px;
+	padding-top: 60px;
+}
+#teams{
+	#designer,#developer,#project-manager{
+		text-align: center;
+		font-size: 0.8em;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+	}
+}
+.role-logo{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	clear: both;
+	text-align: center;
+}
+#about-caritakathon{
+li{
+		display: block;
+		font-size: 0.9em;
+		background-image: url('../images/logo-grey.svg');
+		background-repeat: no-repeat;
+		background-position: left center;
+		background-size: 50px;
+		padding-left: 60px;
+		strong{
+			display: block;
+			font-size: 1.3em;
+			margin-top: 15px;
+			color: $red2;
+		}
+	}
+}
+#registration{
+	margin-top: 60px;
 }
