@@ -6052,7 +6052,7 @@ h1#coming-soon-logo {
 }
 /* line 151, ../sass/app.scss */
 #how-do-i-join h3 {
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
 /* line 155, ../sass/app.scss */
@@ -6114,17 +6114,28 @@ h1#coming-soon-logo {
 /* line 200, ../sass/app.scss */
 #sponsors-and-partners {
   background: #fff;
+  padding-top: 40px;
+  text-align: center;
 }
 
-/* line 203, ../sass/app.scss */
+/* line 205, ../sass/app.scss */
 #mechanics {
   padding-top: 60px;
 }
-/* line 206, ../sass/app.scss */
+/* line 207, ../sass/app.scss */
+#mechanics li {
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+/* line 212, ../sass/app.scss */
 #mechanics ul li {
   display: block;
 }
-/* line 211, ../sass/app.scss */
+/* line 214, ../sass/app.scss */
+#mechanics ul li li {
+  margin-bottom: 0px;
+}
+/* line 221, ../sass/app.scss */
 #mechanics ol li {
   margin-left: 20px;
 }
