@@ -6892,14 +6892,15 @@ h1#coming-soon-logo {
 
 /* line 259, ../sass/app.scss */
 #footer {
-  background: #222;
+  background: #393a3a;
   color: #ed2124;
   font-weight: 300;
   height: 60px;
   text-align: center;
   padding: 20px 0px 20px;
+  font-family: "Roboto";
 }
-/* line 266, ../sass/app.scss */
+/* line 267, ../sass/app.scss */
 #footer span {
   color: #fff;
 }
