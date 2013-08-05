@@ -242,6 +242,20 @@ padding-top: 20px;
 #first-banner{
 		background-image: url('../images/bg-1.jpg');
 }
+.top-bar{
+	font-family: $sansseriffont;
+	font-weight: 100;
+	text-transform: uppercase;
+	li{
+		a{
+			font-weight: 100;
+			letter-spacing: 1px;
+		}
+	}
+	a{
+		font-weight: 200;
+	}
+}
 #second-banner{
 	background-image: url('../images/bg-5.jpg');
 	background-position: center top;
@@ -257,13 +271,15 @@ padding-top: 20px;
 	background-size: cover;
 }
 #footer{
-	background: #393a3a;
+	background-image: url('../images/pattern.svg');
+	background-color: $yellow2;
+	letter-spacing: 1px;
 	color: $red1;
 	font-weight: 300;
 	height: 60px;
 	text-align: center;
 	padding: 20px 0px 20px;
-	font-family: $sansseriffont;
+	font-family: $seriffont;
 	span{
 		color: #fff;
 	}
