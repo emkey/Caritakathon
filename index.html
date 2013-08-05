@@ -18,7 +18,10 @@
 <body>
 <div class="top-page windowheight">
 	<h1 id="coming-soon-logo" class="" src="images/logo-vertical.svg">Caritakathon</h3>
-	<div id="tagline"><span>CallOutThe</span>&#40;Kindness&#41;&#59;</div>
+	<div id="tagline">A site-building hackathon for non-profits & charities</div>
+	<div class="arrow">
+		<a class="scroll" href="#about">Learn more</a>
+	</div>
 </div>
 
 	<div id="container">
@@ -43,8 +46,8 @@
 				<p>This is still TBA but will definitely be within Metro Manila</p>
 			</div>
 		</div>
-		<div class="row">
-			
+		<div class="charity-banner" id="first-banner">
+		
 		</div>
 		<div id="how-do-i-join">
 			<div class="row" id="participants">
@@ -55,7 +58,7 @@
 			<div class="row">
 				<div id="teams" class="columns large-6">
 					<h3>Teams</h3>
-					<p>Each <em>team</em> will be comprised of a <strong>Designer</strong>, <strong>Developer</strong> and <strong>Project Manager</strong>. Each team will be randomly assigned a charity to be announced at the start of the hackathon.</p>
+					<p>Each <em>team</em> will be composed of a <strong>Designer</strong>, <strong>Developer</strong> and <strong>Project Manager</strong>. Each team will be randomly assigned a charity to be announced at the start of the hackathon.</p>
 					<div class="row">
 						<div id="designer" class="columns large-4 small-4">
 							<img src="images/logo-red.svg" width="80" class="role-logo">
@@ -73,10 +76,12 @@
 				</div>
 				<div class="columns large-6">
 					<h3>Registration</h3>
-					<p>Registration for the event will be done by group. Teams must submit a one-page website containing background information about each member so the organizers can determine eligibility for participation, as well as a sign of commitment from them.</p>
+					<p>Registration for the event will be done by group. Teams must submit a one-page website containing background information about each member, including their specific skills and summaries or links of the previous / present work. This is so the organizers can get to know them better and determine eligibility for participation, as well as a sign of commitment from them.</p>
 				</div>
 			</div>
+		<div id="second-banner" class="charity-banner">
 		
+		</div>
 		<div id="registration" class="row">
 			<h3 class="small-12 large-12 columns">Registration Form</h3>
 		</div>
@@ -99,6 +104,9 @@
 				</div>
 			</div>
 		</div>
+	</div>
+	<div class="charity-banner" id="third-banner">
+		
 	</div>
 	<div id="mechanics">
 		<div class="row">
@@ -159,6 +167,9 @@
 			</div>
 		</div>
 	</div>
+	<div id="sixth-banner" class="charity-banner">
+	
+	</div>
 	<div id="sponsors-and-partners">
 		<div class="row">
 			<h2 class="section-header columns large-12 small-12">
@@ -171,6 +182,9 @@
 			</div>
 		</div>
 	</div>
+</div>
+<div id="footer">
+	<span>CallOutThe</span>&#40;Kindness&#41;&#59;
 </div>
 <script type="text/javascript">
   WebFontConfig = {
@@ -191,11 +205,28 @@
   '.js><\/script>');
 
   </script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script type="text/javascript">
   $(document).ready(function(){
 	var bodyheight = $(window).height();
-	$(".windowheight").height(bodyheight);
+	$(".windowheight").css('min-height', bodyheight);
+	$(window).resize(function(){
+		var bodyheight = $(window).height();
+		$(".windowheight").css('min-height', bodyheight);
+	});
   });
+   $(".scroll").click(function(event){
+         event.preventDefault();
+         //calculate destination place
+         var dest=0;
+         if($(this.hash).offset().top > $(document).height()-$(window).height()){
+              dest=$(document).height()-$(window).height();
+         }else{
+              dest=$(this.hash).offset().top;
+         }
+         //go to destination
+         $('html,body').animate({scrollTop:dest}, 1000,'swing');
+     });
   </script>
   <script src="javascripts/foundation/foundation.js"></script>
 	

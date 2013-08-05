@@ -82,6 +82,20 @@ $sansseriffont: 'Roboto';
 html,body{
 	color: #666;
 }
+.arrow{
+	text-align: center;
+	a{
+		background: #666;
+		padding: 10px 10px;
+		border-radius: 20px;
+		color: #fff;
+		font-weight: 300;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		font-size: 0.8em;
+
+	}
+}
 p{
 	font-weight: 300;
 }
@@ -153,10 +167,10 @@ h1#coming-soon-logo{
 	}
 }
 #participants{
-	margin-top: 100px;
-	padding-top: 60px;
+	padding-top: 40px;
 }
 #teams{
+padding-bottom: 40px;
 	#designer,#developer,#project-manager{
 		text-align: center;
 		font-size: 0.8em;
@@ -192,15 +206,13 @@ li{
 	}
 }
 #registration{
-	padding-top: 60px;
-}
-#registration{
-	margin-top: 60px;
+padding-top: 20px;
 }
 #sponsors-and-partners{
 	background:#fff;
 	padding-top: 40px;
 	text-align: center;
+	padding-bottom: 40px;
 }
 #mechanics{
 	padding-top: 60px;
@@ -221,5 +233,37 @@ li{
 		li{
 		margin-left: 20px;
 		}
+	}
+}
+.charity-banner{
+	background-color: #222;
+	height: 200px;
+}
+#first-banner{
+		background-image: url('../images/bg-1.jpg');
+}
+#second-banner{
+	background-image: url('../images/bg-5.jpg');
+	background-position: center top;
+	background-size: cover;
+}
+#third-banner{
+	background-image: url('../images/bg-4.jpg');
+	background-position: center top;
+	background-size: cover;
+}
+#sixth-banner{
+	background-image: url('../images/bg-6.jpg');
+	background-size: cover;
+}
+#footer{
+	background: #222;
+	color: $red1;
+	font-weight: 300;
+	height: 60px;
+	text-align: center;
+	padding: 20px 0px 20px;
+	span{
+		color: #fff;
 	}
 }
